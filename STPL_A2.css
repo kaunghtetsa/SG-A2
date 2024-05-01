@@ -1,0 +1,134 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#main {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #E2E7E7;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.form-row2 {
+    flex-wrap: wrap;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.form-item {
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 15px;
+}
+
+.form-item.full-width {
+    width: 100%;
+	border-left: 3px solid #6C78DB;
+	padding-left:15px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 35px;
+    background-color: #666868;
+    color: #ffffff;
+}
+
+input[type="text"]::placeholder {
+    color: #cccccc;
+}
+
+label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 0.4em;
+}
+
+span {
+    color: red;
+    font-size: 0.8em;
+    display: block;
+    margin-top: 0.1em;
+}
+
+#acknowledgelabel {
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 0.4em;
+    vertical-align: middle;
+}
+
+#acknowledge {
+    vertical-align: middle;
+}
+
+#submitBtn {
+    background-color: #6C78DB;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 120px;
+}
+
+#submitBtn:hover {
+    background-color: #3943A7;
+}
+
+#buttondiv {
+    text-align: center;
+	
+}
+
+#name, #email, #companyname, #businessnumber {
+    border: 1px solid red;
+}
+
+#chkandlabel {
+    display: flex;
+    align-items: center;
+}
+
+#nrc {
+    width: 100%;
+}
+
+#belowline1, #belowline2, #belowline3, #belowline4 {
+    border-left: 3px solid #6C78DB;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+#acknowledge-check {
+    padding-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#acknowledge-check p {
+    margin: 0;
+    margin-left: 10px;
+}
+
+#acknowledge-check input {
+     margin-top: 5px;
+}

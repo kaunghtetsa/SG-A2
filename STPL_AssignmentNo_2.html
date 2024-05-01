@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Declaration Observation Form</title>
+    <link rel="stylesheet" href="STPL_A2.css">
+</head>
+<body>
+    <div id="main">
+        <div class="form-row">
+            <div class="form-item">
+                <label for="name">*Name</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <span>This is required.</span>
+            </div>
+            <div class="form-item">
+                <label for="email">*Business Email</label>
+                <input type="text" id="email" name="email" placeholder="Business Email">
+                <span>This is required.</span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-item">
+                <label for="companyname">*Company Name</label>
+                <input type="text" id="companyname" name="companyname" placeholder="Company Name">
+                <span>This is required.</span>
+            </div>
+            <div class="form-item">
+                <label for="designation">Designation</label>
+                <input type="text" id="designation" name="designation" placeholder="Designation">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-item">
+                <label for="businessnumber">*Business Number</label>
+                <input type="text" id="businessnumber" name="businessnumber" placeholder="Business Number">
+                <span>This is required.</span>
+            </div>
+            <div class="form-item">
+                <label for="licenseplate">License Plate</label>
+                <input type="text" id="licenseplate" name="licenseplate" placeholder="License Plate">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-item full-width">
+                <label for="nrc">NRIC/FIN Number(Last 4 characters)*</label>
+                <input type="text" id="nrc" name="nrc" placeholder="Comment">
+            </div>
+        </div>
+        <div class="form-row">
+            <div id="belowline1">
+                <label for="quote1">1. Are you currently under a Quarantine Order,Stay-Home Notice?</label>
+                <input type="radio" id="yes1" name="rdoQ1">Yes <input type="radio" id="no1" name="rdoQ1" checked=true>No
+            </div>
+        </div>
+        <div class="form-row">
+            <div id="belowline2">
+                <label for="quote2">2. Have you had close contact with a confirmed COVID-19 case in the past 14 days?</label>
+                <input type="radio" id="yes2" name="rdoQ2">Yes <input type="radio" id="no2" name="rdoQ2" checked=true>No
+            </div>
+        </div>
+        <div class="form-row">
+            <div id="belowline3">
+                <label for="quote3">3. Do you have any fever or flu-like symptoms?</label>
+                <input type="radio" id="yes3" name="rdoQ3">Yes <input type="radio" id="no3" name="rdoQ3" checked=true>No
+            </div>
+        </div>
+        <div class="form-row">
+            <div id="acknowledge-check">
+                <input type="checkbox" id="acknowledge" name="acknowledge">
+                <p id="acknowledgelabel" for="acknowledge">By completing this online form, I acknowledge and consent to the collection, use, and disclosure of my personal data for security verification, access control, and safety purposes.</p>
+            </div>
+        </div>
+        <div class="form-row2">
+            <div id="buttondiv">
+                <button type="submit" id="submitBtn">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
